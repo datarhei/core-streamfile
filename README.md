@@ -3,9 +3,6 @@ This Python application (Python 3.10, [Core PyClient](https://github.com/datarhe
 
 The application is designed to be responsive to new files, file changes, and file deletions. However, it currently only supports H.264 and AAC live-streams.
 
-**Limitations:**
-H.264 and AAC live-streams.
-
 ## Installation steps (Linux/macOS example)
 
 1. Start the Core and enable the built-in RTMP and SRT servers    
