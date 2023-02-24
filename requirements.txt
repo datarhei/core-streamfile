@@ -1,0 +1,2 @@
+https://github.com/datarhei/core-client-python/archive/refs/heads/main.tar.gz
+jsonmerge
