@@ -1,10 +1,7 @@
 # datarhei Core - Streamfile importer
-A demonstration of how to make a Python application interact with the datarhei Core.
+This Python application demonstrates how to interact with the datarhei Core. The application enables local files to generate FFmpeg processes, which consider the file name and file content (stream URL) and make the corresponding stream URL available as HLS, RTMP, and/or SRT streams.
 
-## Function:
-Local files generate FFmpeg processes that take into account the file name and file content (stream URL) and make the corresponding stream URL available as HLS, RTMP and/or SRT stream.
-
-The application is responsive to new files, file changes, and file deletions.
+The application is designed to be responsive to new files, file changes, and file deletions. However, it currently only supports H.264 and AAC live-streams.
 
 **Limitations:**
 H.264 and AAC live-streams.
@@ -66,9 +63,10 @@ H.264 and AAC live-streams.
 - `STREAMFILE_FOLDER` (default: /streamfiles)
 - `SYNC_INTERVAL_SECONDS` (default: 10)
 
-## Feature requests
+## Contributing
 
-Feel free to clone the repository and do your own customizations.
+We welcome contributions to this project. If you find a bug or have a suggestion for a new feature, please create an issue on the repository's issue tracker. If you would like to contribute code, please fork the repository and create a pull request with your changes.
 
-# Licence
-MIT
+# License
+
+This application is released under the MIT License.
